@@ -1,0 +1,11 @@
+/*for button*/
+.button{
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+    -fx-background-color: lightblue;
+}
+
+/*for label*/
+.label{
+    -fx-font-size: 13px;
+}
