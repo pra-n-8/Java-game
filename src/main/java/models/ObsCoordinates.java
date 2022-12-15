@@ -1,11 +1,12 @@
 package models;
 
-public class ObsCoordinates extends BoardObstacles {
+public class ObsCoordinates{
     private Coordinates startLoc;
     private Coordinates endLoc;
-    public ObsCoordinates(Coordinates startLoc, Coordinates endLoc){
+
+    public ObsCoordinates(Coordinates startLoc, Coordinates endLoc) {
         this.startLoc = startLoc;
-        this.endLoc=endLoc;
+        this.endLoc = endLoc;
     }
 
     public ObsCoordinates() {

@@ -1,6 +1,12 @@
 package models;
 
+
 public class ScoreCard {
+    /**
+     * Class for saving Scorecard / Leader Board
+     * @param name To save the name of the winner
+     * @param score to save the score of the player
+     */
     private String name;
     private int score;
 
