@@ -1,27 +1,36 @@
 package models;
 
-import javafx.scene.paint.Color;
-
 public class Player {
-    private String playerName;
-    private Coordinates location=new Coordinates(0,0);
+    /**
+     * Class for Player
+     * @param movementDiceRoll For rolling no of steps
+     * @param directionDiceRoll For getting direction on dice roll
+     * @param playerName Storing Player Name
+     * @param location Storing the location of player on board
+     * @param isWinner Check if the player is winner or not
+     * @param iconLoc to set an icon for the player
+     * @param score to set a score to the player
+     */
     public MovementDice movementDiceRoll = new MovementDice();
     public DirectionDice directionDiceRoll = new DirectionDice();
-    private Boolean isWinner= false;
+    private String playerName;
+    private Coordinates location = new Coordinates(0, 0);
+    private Boolean isWinner = false;
     private String iconLoc;
     private int score = 0;
+
+    public Player(String playerName, int lane) {
+        this.playerName = playerName;
+        location.setX(lane);
+        location.setY(0);
+    }
+
     public Boolean getWinner() {
         return isWinner;
     }
 
     public void setWinner(Boolean winner) {
         isWinner = winner;
-    }
-
-    public Player(String playerName, int lane){
-        this.playerName=playerName;
-        location.setX(lane);
-        location.setY(0);
     }
 
     public String getPlayerName() {

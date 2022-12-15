@@ -3,18 +3,23 @@ package models;
 import javafx.scene.Group;
 
 public class GamePlay {
+    /**
+     * Class for passing game values for fx utilization
+     * @param board Gameboard details
+     * @param player playing player details
+     * @param group details of group on FX
+     * @param steps No of steps rolled by player
+     * @param direction Direction rolled by player
+     */
     private GameBoard board;
     private Player player;
     private Group group;
     private int steps;
     private String direction;
+
     public GamePlay(GameBoard board) {
         this.board = board;
         this.player = player;
-    }
-
-    public Group getGroup() {
-        return group;
     }
 
     public void setGroup(Group group) {
@@ -23,10 +28,6 @@ public class GamePlay {
 
     public GameBoard getBoard() {
         return board;
-    }
-
-    public void setBoard(GameBoard board) {
-        this.board = board;
     }
 
     public Player getPlayer() {
