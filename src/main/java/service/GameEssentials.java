@@ -94,7 +94,7 @@ public class GameEssentials {
     public GameBoard initGame() {
 //        Generating dialog box to take board size and number of players
         Dialog<Boolean> boardSpecs = new Dialog<>();
-        boardSpecs.setTitle("Welcome to THE GAME");
+        boardSpecs.setTitle("Welcome to SIMON'S RACE");
         boardSpecs.setHeaderText("Enter Board details");
 //        adding buttons to dialog window
 //        ButtonType bt = new ButtonType("Create Board", ButtonBar.ButtonData.OK_DONE);  // creating ok button
@@ -290,7 +290,7 @@ public class GameEssentials {
         String line = "";
         Dialog leaderboard = new Dialog();
         leaderboard.getDialogPane().setMinHeight(screenBounds.getHeight() / 2);
-        leaderboard.setTitle("Jumanji - LeaderBoard");
+        leaderboard.setTitle("Simon's Race - LeaderBoard");
         ScrollPane scrollPane = new ScrollPane();
         VBox table = new VBox();
         ArrayList<ScoreCard> winnerList = new ArrayList<>();
