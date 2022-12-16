@@ -55,6 +55,8 @@ public class MovePlayer {
                 }
                 gamePlay.getPlayer().setScore(gamePlay.getPlayer().getScore() - (gamePlay.getSteps() * 30));
                 break;
+            default:
+                gamePlay.getPlayer().setScore(gamePlay.getPlayer().getScore() - (gamePlay.getSteps() * 35));
         }
         return gamePlay;
     }

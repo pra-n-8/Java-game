@@ -11,7 +11,7 @@ import javafx.scene.shape.Rectangle;
  */
 public class BoardBlock extends StackPane {
     /**
-     * Class for putting a blank element on the baard
+     * Constructor for putting a blank element on the baard
      * @param x set x value of the board element
      * @param y set y value of the board element
      * @param width set width of the block
@@ -33,7 +33,7 @@ public class BoardBlock extends StackPane {
     }
 
     /**
-     * Method for displaying obstacle on the board
+     * Constructor for displaying obstacle on the board
      * @param x set x value of the board element
      * @param y set y value of the board element
      * @param width set width of the block
@@ -65,7 +65,7 @@ public class BoardBlock extends StackPane {
     }
 
     /**
-     * Method to set player on the board
+     * Constructor to set player on the board
      * @param x set x value of the board element
      * @param y set y value of the board element
      * @param width set width of the block
