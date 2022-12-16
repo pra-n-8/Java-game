@@ -40,7 +40,6 @@ public class gameFX extends Application {
     public void start(Stage primaryStage) {
         GameEssentials gameEssentials = new GameEssentials();
         GameBoard gameBoard = gameEssentials.initGame();
-        System.out.println("Rows :" + gameBoard.getBoardRows() + " Columns :" + gameBoard.getBoardColumns() + " PlayerCount :" + gameBoard.getPlayersCount());
         for (int i = 0; i < gameBoard.getPlayersCount(); i++) {
             SetPlayer sp = new SetPlayer();
             Player p1 = sp.setPlayer(i + 1, gameBoard);
