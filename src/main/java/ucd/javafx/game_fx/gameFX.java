@@ -19,7 +19,6 @@ import service.SetPlayer;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.concurrent.atomic.AtomicReference;
-
 /**
  * Main Method - Start Point of the Game
  */
@@ -181,7 +180,7 @@ public class gameFX extends Application {
         });
 
 //        primaryStage.setResizable(false);
-        primaryStage.setTitle("Jumanji");
+        primaryStage.setTitle("SIMON'S RACE");
         primaryStage.show();
     }
 
