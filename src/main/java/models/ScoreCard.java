@@ -1,6 +1,8 @@
 package models;
 
-
+/**
+ * Score class
+ */
 public class ScoreCard {
     /**
      * Class for saving Scorecard / Leader Board

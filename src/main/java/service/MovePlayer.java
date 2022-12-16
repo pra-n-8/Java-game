@@ -3,6 +3,9 @@ package service;
 import models.Coordinates;
 import models.GamePlay;
 
+/**
+ * Service for moving player as per the inputs
+ */
 public class MovePlayer {
     /**
      * Method to move the player
@@ -52,6 +55,8 @@ public class MovePlayer {
                 }
                 gamePlay.getPlayer().setScore(gamePlay.getPlayer().getScore() - (gamePlay.getSteps() * 30));
                 break;
+            default:
+                gamePlay.getPlayer().setScore(gamePlay.getPlayer().getScore() - (gamePlay.getSteps() * 35));
         }
         return gamePlay;
     }

@@ -8,6 +8,9 @@ import models.Teleporters;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * Service for checking Obstacles in path
+ */
 public class CheckObstacles {
     /**
      * Method for calculating area covered by the obsctale between start and end points

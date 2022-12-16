@@ -1,14 +1,12 @@
-package PlayerTest;
+package models;
 
-import models.Coordinates;
-import models.Player;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class PlayerTests {
+import static org.junit.jupiter.api.Assertions.*;
+
+class PlayerTest {
     @Test
     public void playerCreationTest() {
         Player p = new Player("Player", 5);

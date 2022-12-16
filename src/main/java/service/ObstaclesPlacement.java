@@ -7,6 +7,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * Service for adding obstacles on board
+ */
 public class ObstaclesPlacement {
     /**
      * Method to generate obstacles on the board randomly

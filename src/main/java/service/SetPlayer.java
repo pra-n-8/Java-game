@@ -16,6 +16,9 @@ import models.Player;
 import java.util.Queue;
 import java.util.concurrent.atomic.AtomicReference;
 
+/**
+ * Service for taking player inputs and adding them on game board
+ */
 public class SetPlayer {
     /**
      * Method for taking player inputs

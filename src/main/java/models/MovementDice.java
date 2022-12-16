@@ -1,5 +1,8 @@
 package models;
 
+/**
+ * Class for rolling steps
+ */
 public class MovementDice {
     /**
      * Class for Steps dice
