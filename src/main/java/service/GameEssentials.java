@@ -280,6 +280,7 @@ public class GameEssentials {
         Group g = new Group(winnerTag, winner, playerScore, closeBtn, displayLeaderBoard);
         Scene scene = new Scene(g);
         stage.setScene(scene);
+        stage.setFullScreen(true);
     }
 
     /**
