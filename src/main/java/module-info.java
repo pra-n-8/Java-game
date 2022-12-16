@@ -4,5 +4,4 @@ module ucd.javafx.game_fx {
 
     opens ucd.javafx.game_fx to javafx.fxml;
     exports ucd.javafx.game_fx;
-
 }

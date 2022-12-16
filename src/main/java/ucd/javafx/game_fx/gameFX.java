@@ -20,6 +20,9 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.concurrent.atomic.AtomicReference;
 
+/**
+ * Main Method - Start Point of the Game
+ */
 public class gameFX extends Application {
     /**
      * Main start point of the game

@@ -1,8 +1,11 @@
 package models;
 
+/**
+ * Class for saving obstacle with all its coordinate
+ */
 public class BoardObstacles {
     /**
-     * Method for saving obstacle with all its coordinate
+     * Class for saving obstacle with all its coordinate
      * @param obs to get obs
      * @param coordinates to sav all the coodinates of the obstacle
      */

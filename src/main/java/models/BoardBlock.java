@@ -6,9 +6,12 @@ import javafx.scene.layout.StackPane;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Rectangle;
 
+/**
+ * Class for Adding gameboard on JAVA FX
+ */
 public class BoardBlock extends StackPane {
     /**
-     * Method for putting a blank element on the baard
+     * Class for putting a blank element on the baard
      * @param x set x value of the board element
      * @param y set y value of the board element
      * @param width set width of the block

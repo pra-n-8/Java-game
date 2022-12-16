@@ -1,5 +1,8 @@
 package models;
 
+/**
+ * Player class
+ */
 public class Player {
     /**
      * Class for Player

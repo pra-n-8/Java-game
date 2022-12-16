@@ -1,5 +1,8 @@
 package models;
 
+/**
+ * Class for Obstacle coordinates
+ */
 public class ObsCoordinates{
     private Coordinates startLoc;
     private Coordinates endLoc;

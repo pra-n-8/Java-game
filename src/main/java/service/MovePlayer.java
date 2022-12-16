@@ -3,6 +3,9 @@ package service;
 import models.Coordinates;
 import models.GamePlay;
 
+/**
+ * Service for moving player as per the inputs
+ */
 public class MovePlayer {
     /**
      * Method to move the player

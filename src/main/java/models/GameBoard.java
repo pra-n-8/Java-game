@@ -2,6 +2,9 @@ package models;
 
 import java.util.List;
 
+/**
+ * Class for main board
+ */
 public class GameBoard {
     /**
      * Class for gameboard

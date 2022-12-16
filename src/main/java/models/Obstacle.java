@@ -1,4 +1,7 @@
 package models;
+/**
+ * Obstacle class - Parent class for all Obstacles
+ */
 public class Obstacle {
     /**
      *  Obstacle class - Parent class for all Obstacles

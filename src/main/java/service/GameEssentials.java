@@ -17,6 +17,9 @@ import java.io.*;
 import java.util.*;
 import java.util.concurrent.atomic.AtomicReference;
 
+/**
+ * Service for all the game essential elements like initializing, checking winners, displaying scoreboards
+ */
 public class GameEssentials {
     Rectangle2D screenBounds = Screen.getPrimary().getBounds();
 

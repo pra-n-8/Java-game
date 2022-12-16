@@ -1,10 +1,10 @@
 package models;
 
-
+/**
+ * Class for dice to roll the direction of movement
+ */
 public class DirectionDice{
-    /**
-     * Class for dice to roll the direction of movement
-     */
+
     private final String[] directionCodes = new String[]{"Forward", "Forward", "Backwards", "Skip"};
 
     /**

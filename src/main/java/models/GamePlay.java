@@ -2,6 +2,10 @@ package models;
 
 import javafx.scene.Group;
 
+/**
+ * Class for having all the elements at one place while game is ongoing
+ * For game components communication
+ */
 public class GamePlay {
     /**
      * Class for passing game values for fx utilization
